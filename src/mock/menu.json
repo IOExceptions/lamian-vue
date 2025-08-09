@@ -1,0 +1,490 @@
+{
+  "shop": {
+    "name": "一兰拉面(涩谷店)",
+    "distance": "0.8km",
+    "eta": "15-20分钟"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "title": "套餐",
+      "icon": "🍱"
+    },
+    {
+      "id": 2,
+      "title": "猪骨拉面",
+      "icon": "🍜"
+    },
+    {
+      "id": 3,
+      "title": "味噌拉面",
+      "icon": "🥣"
+    },
+    {
+      "id": 4,
+      "title": "小食",
+      "icon": "🍤"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "猪骨拉面经典套餐",
+      "img": "https://images.unsplash.com/photo-1603133872878-684f0b05f835?q=80&w=1200&auto=format&fit=crop",
+      "rate": 4.8,
+      "sales": 1255,
+      "tags": [
+        {
+          "text": "人气",
+          "type": "orange"
+        },
+        {
+          "text": "温馨",
+          "type": "red"
+        },
+        {
+          "text": "超值",
+          "type": "red"
+        }
+      ],
+      "specs": [
+        {
+          "id": 1,
+          "title": "标准",
+          "price": 68.0
+        },
+        {
+          "id": 2,
+          "title": "大份",
+          "price": 138.0
+        }
+      ],
+      "addons": [
+        {
+          "id": 1,
+          "title": "煎饺(5个)",
+          "price": 18.0
+        },
+        {
+          "id": 2,
+          "title": "叉烧饭",
+          "price": 25.0
+        },
+        {
+          "id": 3,
+          "title": "日式啤酒",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "categoryId": 3,
+      "title": "味噌拉面温馨套餐",
+      "img": "https://images.unsplash.com/photo-1600783985872-c4b5b3f15b5b?q=80&w=1200&auto=format&fit=crop",
+      "rate": 4.5,
+      "sales": 2850,
+      "tags": [
+        {
+          "text": "人气",
+          "type": "orange"
+        },
+        {
+          "text": "推荐",
+          "type": "red"
+        },
+        {
+          "text": "温馨",
+          "type": "red"
+        }
+      ],
+      "specs": [
+        {
+          "id": 1,
+          "title": "标准",
+          "price": 42.0
+        },
+        {
+          "id": 2,
+          "title": "大份",
+          "price": 55.0
+        }
+      ],
+      "addons": [
+        {
+          "id": 1,
+          "title": "煎饺(5个)",
+          "price": 18.0
+        },
+        {
+          "id": 2,
+          "title": "叉烧饭",
+          "price": 25.0
+        },
+        {
+          "id": 3,
+          "title": "日式啤酒",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "title": "双人分享套餐",
+      "img": "https://images.unsplash.com/photo-1569718212165-3a8278d5f2cc?q=80&w=1200&auto=format&fit=crop",
+      "rate": 4.8,
+      "sales": 2975,
+      "tags": [
+        {
+          "text": "人气",
+          "type": "orange"
+        },
+        {
+          "text": "温馨",
+          "type": "red"
+        },
+        {
+          "text": "超值",
+          "type": "red"
+        }
+      ],
+      "specs": [
+        {
+          "id": 1,
+          "title": "标准",
+          "price": 58.0
+        },
+        {
+          "id": 2,
+          "title": "大份",
+          "price": 138.0
+        }
+      ],
+      "addons": [
+        {
+          "id": 1,
+          "title": "煎饺(5个)",
+          "price": 18.0
+        },
+        {
+          "id": 2,
+          "title": "叉烧饭",
+          "price": 25.0
+        },
+        {
+          "id": 3,
+          "title": "日式啤酒",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "title": "蘸面豪华套餐",
+      "img": "https://images.unsplash.com/photo-1569718216646-d8e33d9e0c9f?q=80&w=1200&auto=format&fit=crop",
+      "rate": 4.6,
+      "sales": 2472,
+      "tags": [
+        {
+          "text": "人气",
+          "type": "orange"
+        },
+        {
+          "text": "豪华",
+          "type": "red"
+        },
+        {
+          "text": "推荐",
+          "type": "red"
+        }
+      ],
+      "specs": [
+        {
+          "id": 1,
+          "title": "标准",
+          "price": 68.0
+        },
+        {
+          "id": 2,
+          "title": "大份",
+          "price": 72.0
+        }
+      ],
+      "addons": [
+        {
+          "id": 1,
+          "title": "煎饺(5个)",
+          "price": 18.0
+        },
+        {
+          "id": 2,
+          "title": "叉烧饭",
+          "price": 25.0
+        },
+        {
+          "id": 3,
+          "title": "日式啤酒",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "title": "家庭欢乐套餐",
+      "img": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop",
+      "rate": 4.5,
+      "sales": 830,
+      "tags": [
+        {
+          "text": "人气",
+          "type": "orange"
+        },
+        {
+          "text": "精选",
+          "type": "red"
+        },
+        {
+          "text": "温馨",
+          "type": "red"
+        }
+      ],
+      "specs": [
+        {
+          "id": 1,
+          "title": "标准",
+          "price": 62.0
+        },
+        {
+          "id": 2,
+          "title": "大份",
+          "price": 55.0
+        }
+      ],
+      "addons": [
+        {
+          "id": 1,
+          "title": "煎饺(5个)",
+          "price": 18.0
+        },
+        {
+          "id": 2,
+          "title": "叉烧饭",
+          "price": 25.0
+        },
+        {
+          "id": 3,
+          "title": "日式啤酒",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "title": "清爽夏日套餐",
+      "img": "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=1200&auto=format&fit=crop",
+      "rate": 4.7,
+      "sales": 842,
+      "tags": [
+        {
+          "text": "人气",
+          "type": "orange"
+        },
+        {
+          "text": "精选",
+          "type": "red"
+        },
+        {
+          "text": "豪华",
+          "type": "red"
+        }
+      ],
+      "specs": [
+        {
+          "id": 1,
+          "title": "标准",
+          "price": 62.0
+        },
+        {
+          "id": 2,
+          "title": "大份",
+          "price": 68.0
+        }
+      ],
+      "addons": [
+        {
+          "id": 1,
+          "title": "煎饺(5个)",
+          "price": 18.0
+        },
+        {
+          "id": 2,
+          "title": "叉烧饭",
+          "price": 25.0
+        },
+        {
+          "id": 3,
+          "title": "日式啤酒",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "title": "特制豚骨拉面",
+      "img": "https://images.unsplash.com/photo-1557872943-16a5ac26437b?q=80&w=1200&auto=format&fit=crop",
+      "rate": 4.8,
+      "sales": 2744,
+      "tags": [
+        {
+          "text": "人气",
+          "type": "orange"
+        },
+        {
+          "text": "超值",
+          "type": "red"
+        },
+        {
+          "text": "豪华",
+          "type": "red"
+        }
+      ],
+      "specs": [
+        {
+          "id": 1,
+          "title": "标准",
+          "price": 58.0
+        },
+        {
+          "id": 2,
+          "title": "大份",
+          "price": 68.0
+        }
+      ],
+      "addons": [
+        {
+          "id": 1,
+          "title": "煎饺(5个)",
+          "price": 18.0
+        },
+        {
+          "id": 2,
+          "title": "叉烧饭",
+          "price": 25.0
+        },
+        {
+          "id": 3,
+          "title": "日式啤酒",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "title": "味噌拉面",
+      "img": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?q=80&w=1200&auto=format&fit=crop",
+      "rate": 4.7,
+      "sales": 2323,
+      "tags": [
+        {
+          "text": "人气",
+          "type": "orange"
+        },
+        {
+          "text": "温馨",
+          "type": "red"
+        },
+        {
+          "text": "精选",
+          "type": "red"
+        }
+      ],
+      "specs": [
+        {
+          "id": 1,
+          "title": "标准",
+          "price": 85.0
+        },
+        {
+          "id": 2,
+          "title": "大份",
+          "price": 138.0
+        }
+      ],
+      "addons": [
+        {
+          "id": 1,
+          "title": "煎饺(5个)",
+          "price": 18.0
+        },
+        {
+          "id": 2,
+          "title": "叉烧饭",
+          "price": 25.0
+        },
+        {
+          "id": 3,
+          "title": "日式啤酒",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "title": "叉烧饭套餐",
+      "img": "https://images.unsplash.com/photo-1511910849309-d33e788d0e2e?q=80&w=1200&auto=format&fit=crop",
+      "rate": 4.8,
+      "sales": 2587,
+      "tags": [
+        {
+          "text": "人气",
+          "type": "orange"
+        },
+        {
+          "text": "精选",
+          "type": "red"
+        },
+        {
+          "text": "温馨",
+          "type": "red"
+        }
+      ],
+      "specs": [
+        {
+          "id": 1,
+          "title": "标准",
+          "price": 45.0
+        },
+        {
+          "id": 2,
+          "title": "大份",
+          "price": 138.0
+        }
+      ],
+      "addons": [
+        {
+          "id": 1,
+          "title": "煎饺(5个)",
+          "price": 18.0
+        },
+        {
+          "id": 2,
+          "title": "叉烧饭",
+          "price": 25.0
+        },
+        {
+          "id": 3,
+          "title": "日式啤酒",
+          "price": 15.0
+        }
+      ]
+    }
+  ]
+}
