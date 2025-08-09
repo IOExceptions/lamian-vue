@@ -8,32 +8,68 @@
     {
       "id": 1,
       "title": "套餐",
+      "title_en": "Combos",
+      "title_ja": "セット",
       "icon": "🍱"
     },
     {
       "id": 2,
       "title": "猪骨拉面",
+      "title_en": "Tonkotsu Ramen",
+      "title_ja": "豚骨ラーメン",
       "icon": "🍜"
     },
     {
       "id": 3,
       "title": "味噌拉面",
+      "title_en": "Miso Ramen",
+      "title_ja": "味噌ラーメン",
       "icon": "🥣"
     },
     {
       "id": 4,
       "title": "小食",
+      "title_en": "Sides",
+      "title_ja": "サイド",
       "icon": "🍤"
+    },
+    {
+      "id": 5,
+      "title": "饮料",
+      "title_en": "Drinks",
+      "title_ja": "ドリンク",
+      "icon": "🥤"
+    },
+    {
+      "id": 6,
+      "title": "甜品",
+      "title_en": "Desserts",
+      "title_ja": "デザート",
+      "icon": "🍰"
+    },
+    {
+      "id": 7,
+      "title": "丼饭",
+      "title_en": "Donburi",
+      "title_ja": "丼ぶり",
+      "icon": "🍚"
+    },
+    {
+      "id": 8,
+      "title": "寿司",
+      "title_en": "Sushi",
+      "title_ja": "寿司",
+      "icon": "🍣"
     }
   ],
   "products": [
     {
       "id": 1,
       "categoryId": 1,
-      "title": "猪骨拉面经典套餐",
-      "img": "https://images.unsplash.com/photo-1603133872878-684f0b05f835?q=80&w=1200&auto=format&fit=crop",
-      "rate": 4.8,
-      "sales": 1255,
+      "title": "豚骨拉面经典套餐",
+      "img": "/combo-tonkotsu-set.png",
+      "rate": 4.9,
+      "sales": 3456,
       "tags": [
         {
           "text": "人气",
@@ -80,11 +116,11 @@
     },
     {
       "id": 2,
-      "categoryId": 3,
+      "categoryId": 1,
       "title": "味噌拉面温馨套餐",
-      "img": "https://images.unsplash.com/photo-1600783985872-c4b5b3f15b5b?q=80&w=1200&auto=format&fit=crop",
-      "rate": 4.5,
-      "sales": 2850,
+      "img": "/combo-miso-set.png",
+      "rate": 4.8,
+      "sales": 2567,
       "tags": [
         {
           "text": "人气",
@@ -103,12 +139,12 @@
         {
           "id": 1,
           "title": "标准",
-          "price": 42.0
+          "price": 62.0
         },
         {
           "id": 2,
           "title": "大份",
-          "price": 55.0
+          "price": 72.0
         }
       ],
       "addons": [
@@ -131,11 +167,11 @@
     },
     {
       "id": 3,
-      "categoryId": 3,
+      "categoryId": 1,
       "title": "双人分享套餐",
-      "img": "https://images.unsplash.com/photo-1569718212165-3a8278d5f2cc?q=80&w=1200&auto=format&fit=crop",
-      "rate": 4.8,
-      "sales": 2975,
+      "img": "/combo-couple-set.png",
+      "rate": 4.7,
+      "sales": 1876,
       "tags": [
         {
           "text": "人气",
@@ -154,7 +190,7 @@
         {
           "id": 1,
           "title": "标准",
-          "price": 58.0
+          "price": 128.0
         },
         {
           "id": 2,
@@ -184,7 +220,7 @@
       "id": 4,
       "categoryId": 2,
       "title": "蘸面豪华套餐",
-      "img": "https://images.unsplash.com/photo-1569718216646-d8e33d9e0c9f?q=80&w=1200&auto=format&fit=crop",
+      "img": "/menu/img_1.jpg",
       "rate": 4.6,
       "sales": 2472,
       "tags": [
@@ -235,7 +271,7 @@
       "id": 5,
       "categoryId": 2,
       "title": "家庭欢乐套餐",
-      "img": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop",
+      "img": "/menu/img_2.jpg",
       "rate": 4.5,
       "sales": 830,
       "tags": [
@@ -286,7 +322,7 @@
       "id": 6,
       "categoryId": 1,
       "title": "清爽夏日套餐",
-      "img": "https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=1200&auto=format&fit=crop",
+      "img": "/menu/img_3.jpg",
       "rate": 4.7,
       "sales": 842,
       "tags": [
@@ -337,9 +373,9 @@
       "id": 7,
       "categoryId": 3,
       "title": "特制豚骨拉面",
-      "img": "https://images.unsplash.com/photo-1557872943-16a5ac26437b?q=80&w=1200&auto=format&fit=crop",
-      "rate": 4.8,
-      "sales": 2744,
+      "img": "/tonkotsu-ramen-special.png",
+      "rate": 4.9,
+      "sales": 2156,
       "tags": [
         {
           "text": "人气",
@@ -358,7 +394,7 @@
         {
           "id": 1,
           "title": "标准",
-          "price": 58.0
+          "price": 45.0
         },
         {
           "id": 2,
@@ -388,9 +424,9 @@
       "id": 8,
       "categoryId": 2,
       "title": "味噌拉面",
-      "img": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?q=80&w=1200&auto=format&fit=crop",
+      "img": "/spicy-miso-ramen.png",
       "rate": 4.7,
-      "sales": 2323,
+      "sales": 1834,
       "tags": [
         {
           "text": "人气",
@@ -409,7 +445,7 @@
         {
           "id": 1,
           "title": "标准",
-          "price": 85.0
+          "price": 42.0
         },
         {
           "id": 2,
@@ -439,7 +475,7 @@
       "id": 9,
       "categoryId": 1,
       "title": "叉烧饭套餐",
-      "img": "https://images.unsplash.com/photo-1511910849309-d33e788d0e2e?q=80&w=1200&auto=format&fit=crop",
+      "img": "/menu/img_4.jpg",
       "rate": 4.8,
       "sales": 2587,
       "tags": [
@@ -485,6 +521,205 @@
           "price": 15.0
         }
       ]
+    }
+    ,
+    {
+      "id": 10,
+      "categoryId": 2,
+      "title": "日式酱油拉面",
+      "img": "/tonkotsu-ramen-special.png",
+      "rate": 4.8,
+      "sales": 1320,
+      "tags": [ { "text": "人气", "type": "orange" }, { "text": "精选", "type": "red" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 49.0 }, { "id": 2, "title": "大份", "price": 59.0 } ],
+      "addons": [ { "id": 1, "title": "煎饺(5个)", "price": 18.0 }, { "id": 2, "title": "叉烧饭", "price": 25.0 } ]
+    },
+    {
+      "id": 11,
+      "categoryId": 3,
+      "title": "日式盐味拉面",
+      "img": "/spicy-miso-ramen.png",
+      "rate": 4.7,
+      "sales": 980,
+      "tags": [ { "text": "清淡", "type": "blue" }, { "text": "推荐", "type": "red" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 45.0 }, { "id": 2, "title": "大份", "price": 55.0 } ],
+      "addons": [ { "id": 1, "title": "溏心蛋", "price": 6.0 }, { "id": 2, "title": "海苔", "price": 5.0 } ]
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "title": "博多豚骨拉面",
+      "img": "/tonkotsu-ramen-special.png",
+      "rate": 4.9,
+      "sales": 2105,
+      "tags": [ { "text": "浓郁", "type": "red" }, { "text": "人气", "type": "orange" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 55.0 }, { "id": 2, "title": "加叉烧", "price": 68.0 } ],
+      "addons": [ { "id": 1, "title": "笋干", "price": 5.0 }, { "id": 2, "title": "加面", "price": 6.0 } ]
+    },
+    {
+      "id": 13,
+      "categoryId": 5,
+      "title": "抹茶拿铁",
+      "img": "/menu/placeholder-drink.svg",
+      "rate": 4.8,
+      "sales": 865,
+      "tags": [ { "text": "人气", "type": "orange" } ],
+      "specs": [ { "id": 1, "title": "中杯", "price": 16.0 }, { "id": 2, "title": "大杯", "price": 20.0 } ],
+      "addons": [ { "id": 1, "title": "珍珠", "price": 2.0 }, { "id": 2, "title": "椰果", "price": 2.0 } ]
+    },
+    {
+      "id": 14,
+      "categoryId": 5,
+      "title": "冷泡乌龙茶",
+      "img": "/menu/placeholder-drink.svg",
+      "rate": 4.7,
+      "sales": 742,
+      "tags": [ { "text": "清爽", "type": "blue" } ],
+      "specs": [ { "id": 1, "title": "中杯", "price": 12.0 }, { "id": 2, "title": "大杯", "price": 16.0 } ],
+      "addons": [ { "id": 1, "title": "柠檬", "price": 2.0 } ]
+    },
+    {
+      "id": 15,
+      "categoryId": 5,
+      "title": "柚子汽水",
+      "img": "/menu/placeholder-drink.svg",
+      "rate": 4.6,
+      "sales": 653,
+      "tags": [ { "text": "清爽", "type": "blue" } ],
+      "specs": [ { "id": 1, "title": "中杯", "price": 14.0 }, { "id": 2, "title": "大杯", "price": 18.0 } ],
+      "addons": [ { "id": 1, "title": "冰量加倍", "price": 0 } ]
+    },
+    {
+      "id": 16,
+      "categoryId": 5,
+      "title": "可尔必思",
+      "img": "/menu/placeholder-drink.svg",
+      "rate": 4.7,
+      "sales": 512,
+      "tags": [ { "text": "人气", "type": "orange" } ],
+      "specs": [ { "id": 1, "title": "中杯", "price": 13.0 }, { "id": 2, "title": "大杯", "price": 17.0 } ],
+      "addons": [ { "id": 1, "title": "红豆", "price": 2.0 } ]
+    },
+    {
+      "id": 17,
+      "categoryId": 5,
+      "title": "黑乌龙茶",
+      "img": "/menu/placeholder-drink.svg",
+      "rate": 4.6,
+      "sales": 431,
+      "tags": [ { "text": "解腻", "type": "blue" } ],
+      "specs": [ { "id": 1, "title": "中杯", "price": 12.0 }, { "id": 2, "title": "大杯", "price": 16.0 } ],
+      "addons": []
+    },
+    {
+      "id": 18,
+      "categoryId": 6,
+      "title": "抹茶冰淇淋",
+      "img": "/menu/placeholder-dessert.svg",
+      "rate": 4.8,
+      "sales": 725,
+      "tags": [ { "text": "清新", "type": "blue" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 16.0 } ],
+      "addons": [ { "id": 1, "title": "红豆", "price": 3.0 }, { "id": 2, "title": "抹茶粉", "price": 2.0 } ]
+    },
+    {
+      "id": 19,
+      "categoryId": 6,
+      "title": "大福",
+      "img": "/menu/placeholder-dessert.svg",
+      "rate": 4.7,
+      "sales": 612,
+      "tags": [ { "text": "人气", "type": "orange" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 12.0 } ],
+      "addons": [ { "id": 1, "title": "黄豆粉", "price": 2.0 } ]
+    },
+    {
+      "id": 20,
+      "categoryId": 6,
+      "title": "铜锣烧",
+      "img": "/menu/placeholder-dessert.svg",
+      "rate": 4.8,
+      "sales": 580,
+      "tags": [ { "text": "经典", "type": "red" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 15.0 } ],
+      "addons": [ { "id": 1, "title": "加红豆馅", "price": 3.0 } ]
+    },
+    {
+      "id": 21,
+      "categoryId": 6,
+      "title": "日式芝士蛋糕",
+      "img": "/menu/placeholder-dessert.svg",
+      "rate": 4.9,
+      "sales": 430,
+      "tags": [ { "text": "绵软", "type": "red" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 22.0 } ],
+      "addons": []
+    },
+    {
+      "id": 22,
+      "categoryId": 7,
+      "title": "叉烧丼",
+      "img": "/menu/placeholder-bowl.svg",
+      "rate": 4.8,
+      "sales": 820,
+      "tags": [ { "text": "人气", "type": "orange" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 32.0 }, { "id": 2, "title": "加肉", "price": 42.0 } ],
+      "addons": [ { "id": 1, "title": "溏心蛋", "price": 6.0 }, { "id": 2, "title": "味噌汤", "price": 5.0 } ]
+    },
+    {
+      "id": 23,
+      "categoryId": 7,
+      "title": "炙烤牛丼",
+      "img": "/menu/placeholder-bowl.svg",
+      "rate": 4.7,
+      "sales": 702,
+      "tags": [ { "text": "精选", "type": "red" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 36.0 }, { "id": 2, "title": "加肉", "price": 46.0 } ],
+      "addons": [ { "id": 1, "title": "温泉蛋", "price": 6.0 } ]
+    },
+    {
+      "id": 24,
+      "categoryId": 7,
+      "title": "鳗鱼饭",
+      "img": "/menu/placeholder-bowl.svg",
+      "rate": 4.9,
+      "sales": 540,
+      "tags": [ { "text": "招牌", "type": "red" } ],
+      "specs": [ { "id": 1, "title": "标准", "price": 58.0 } ],
+      "addons": [ { "id": 1, "title": "味噌汤", "price": 5.0 } ]
+    },
+    {
+      "id": 25,
+      "categoryId": 8,
+      "title": "三文鱼寿司",
+      "img": "/menu/placeholder-sushi.svg",
+      "rate": 4.8,
+      "sales": 910,
+      "tags": [ { "text": "新鲜", "type": "blue" } ],
+      "specs": [ { "id": 1, "title": "6贯", "price": 32.0 }, { "id": 2, "title": "10贯", "price": 52.0 } ],
+      "addons": [ { "id": 1, "title": "芥末", "price": 0 }, { "id": 2, "title": "姜片", "price": 0 } ]
+    },
+    {
+      "id": 26,
+      "categoryId": 8,
+      "title": "金枪鱼寿司",
+      "img": "/menu/placeholder-sushi.svg",
+      "rate": 4.7,
+      "sales": 780,
+      "tags": [ { "text": "精选", "type": "red" } ],
+      "specs": [ { "id": 1, "title": "6贯", "price": 36.0 }, { "id": 2, "title": "10贯", "price": 58.0 } ],
+      "addons": [ { "id": 1, "title": "芥末", "price": 0 } ]
+    },
+    {
+      "id": 27,
+      "categoryId": 8,
+      "title": "加州卷",
+      "img": "/menu/placeholder-sushi.svg",
+      "rate": 4.6,
+      "sales": 650,
+      "tags": [ { "text": "人气", "type": "orange" } ],
+      "specs": [ { "id": 1, "title": "6件", "price": 28.0 }, { "id": 2, "title": "10件", "price": 45.0 } ],
+      "addons": [ { "id": 1, "title": "飞鱼籽", "price": 4.0 } ]
     }
   ]
 }

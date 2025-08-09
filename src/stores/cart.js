@@ -8,7 +8,14 @@ export const useCartStore = defineStore('cart', {
   getters: {
     count: (s) => s.items.reduce((a,b)=>a+b.qty,0),
     subtotal: (s) => s.items.reduce((a,b)=>a + b.qty * b.price + (b.addons?.reduce((x,y)=>x + (y.qty*y.price),0) || 0), 0),
-    total: (s) => Math.max(0, (s.subtotal - (s.coupon?.discount || 0)))
+    discount(){
+      const min = this.coupon?.minSpend || 0
+      const off = this.coupon?.discount || 0
+      return this.subtotal >= min ? off : 0
+    },
+    total(){
+      return Math.max(0, this.subtotal - this.discount)
+    }
   },
   actions: {
     clear(){ this.items = [] },
@@ -19,6 +26,7 @@ export const useCartStore = defineStore('cart', {
       if (idx >= 0) this.items[idx].qty += item.qty
       else this.items.push(JSON.parse(JSON.stringify(item)))
     },
+    setCoupon(c){ this.coupon = c },
     removeAt(i){ this.items.splice(i,1) }
   }
 })

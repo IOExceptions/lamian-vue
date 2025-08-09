@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="32" fill="url(#g3)"/>
+  <g fill="#ffffff" opacity="0.9">
+    <rect x="128" y="220" width="256" height="80" rx="20"/>
+    <rect x="168" y="180" width="176" height="40" rx="12" fill="#ef4444"/>
+  </g>
+  <text x="256" y="468" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial" font-size="36" text-anchor="middle" fill="#0f172a">寿司</text>
+</svg>
+

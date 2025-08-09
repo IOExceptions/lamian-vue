@@ -4,12 +4,14 @@ const Home = () => import('../views/Home.vue')
 const Menu = () => import('../views/Menu.vue')
 const Cart = () => import('../views/Cart.vue')
 const Profile = () => import('../views/Profile.vue')
+const OrderDetail = () => import('../views/OrderDetail.vue')
 
 const routes = [
   { path: '/', redirect: '/home' },
   { path: '/home', name: 'home', component: Home },
   { path: '/menu', name: 'menu', component: Menu },
   { path: '/cart', name: 'cart', component: Cart },
+  { path: '/order/:id', name: 'order', component: OrderDetail },
   { path: '/me', name: 'me', component: Profile },
 ]
 
